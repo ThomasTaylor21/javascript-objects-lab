@@ -13,3 +13,4 @@ const game = {
 }
 
 prevGuesses: [],
+// generate each for loop 
