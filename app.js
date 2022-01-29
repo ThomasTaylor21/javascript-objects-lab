@@ -1,4 +1,4 @@
-console.log("I am here")
+console.log("I am here now")
 
 
 const game = {
@@ -11,3 +11,5 @@ const game = {
       (this.biggestNum - this.smallestNum + 1)) + this.smallestNum
   }
 }
+
+prevGuesses: [],
