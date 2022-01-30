@@ -13,12 +13,14 @@ const game = {
 }
 
 prevGuesses: [], {
-  function multiplyArray(numArray) {
-    let numArrayProduct = 1;
-    for (let i = 0; i < numArray.length; i++) {
-      numArrayProduct *= numArray[i];
+  const play = function (a, b, c) {
+    if this.biggestNum - this.smallestNum + 1)) + this.smallestNum {
+      return this.secretNuma;
+    } else if (b >= a && b >= c) {
+      return b;
     }
-    return numArrayProduct;
+    return c;
+  };
   
   
   
