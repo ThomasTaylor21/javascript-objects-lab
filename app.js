@@ -12,5 +12,15 @@ const game = {
   }
 }
 
-prevGuesses: [],
+prevGuesses: [], {
+  function multiplyArray(numArray) {
+    let numArrayProduct = 1;
+    for (let i = 0; i < numArray.length; i++) {
+      numArrayProduct *= numArray[i];
+    }
+    return numArrayProduct;
+  
+  
+  
+  for 
 // generate each for loop 
