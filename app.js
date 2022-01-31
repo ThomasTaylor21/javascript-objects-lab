@@ -43,11 +43,16 @@ this.render();
   getguesses = this.getGuess();
   if (isNaN(guesses) === false);
   console.log(guesses); {
-    let guess() {
-
-
+    let guess() => parseInt(
       
-    }
+  do { }
+      
+      prompt(
+      `Please enter your guess between ${this.smallestNum} and  ${this.biggestNum}`
+    )
+      while {}}
+
+    
 
   }
     // }
