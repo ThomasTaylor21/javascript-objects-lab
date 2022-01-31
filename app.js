@@ -43,15 +43,7 @@ this.render();
   getguesses = this.getGuess();
   if (isNaN(guesses) === false);
   console.log(guesses); {
-    let guess() => parseInt(
-      
-  do { }
-      
-      prompt(
-      `Please enter your guess between ${this.smallestNum} and  ${this.biggestNum}`
-    )
-      while {}}
-
+  
     
 
   }
@@ -66,6 +58,20 @@ this.render();
     //     - Hints:
     //         - This is a great use case for a `while` loop.
     //         - `parseInt` returns `NaN` if the string cannot be parsed into a number.
+  
+    let guess() => parseInt(
+      
+      do { }
+          
+          prompt(
+          `Please enter your guess between ${this.smallestNum} and  ${this.biggestNum}`
+        )
+          while {}}
+    
+  
+  
+  
+  
     // 4. From within the `play` method, invoke the `getGuess` method from inside a loop, and add the new guess to the `prevGuesses` array.
     //     - Hint: this is an excellent use for a while loop (or even a do...while loop!)
     // 5. Add a `render` method to `game` that `play` will call after a guess has been made that alerts:
