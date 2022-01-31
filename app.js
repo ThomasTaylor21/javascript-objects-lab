@@ -6,28 +6,41 @@ const game = {
   biggestNum: 100,
   smallestNum: 1,
   secretNum: null,
-  play: function() {
-    this.secretNum = Math.floor(Math.random() * 
+  play: function () {
+    this.secretNum = Math.floor(Math.random() *
       (this.biggestNum - this.smallestNum + 1)) + this.smallestNum
   }
-
+}
 
   // ## Tasks
 
   // Completing the following tasks will result in a working *Guess the Number* game:
   
   // 1. Add a `prevGuesses` property to the `game` object initialized to an empty array.
+do {
+
+  while (this.previousGuess[this.previousGuess.length = 1])) && !== this.secretNum !== null);
+
+  this.render()
+}
 
 
-  getguesses = this.getGuess();
+
+
+
+
+  // 2. Add a `getGuess` method to `game` that prompts the player to enter a guess with a message formatted as: *Enter a guess between [smallestNum] and [biggestNum].
+
+  // getguesses = this.getGuess();
   // if (isNaN(guesses) === false);
-  console.log(guesses); {
-    let ()
+  // console.log(guesses); {
+  //   let ()
 
 
-  }
+  // }
 
-  // 2. Add a `getGuess` method to `game` that prompts the player to enter a guess with a message formatted as: *Enter a guess between [smallestNum] and [biggestNum].*
+
+
   // Hint - use a template literal for the prompt message.
   // 3. Ensure that the `getGuess` method returns a value that:
   //     - Is a *number*, not a *string*.
