@@ -33,11 +33,6 @@ this.render();
     this.render()
   // }
 
-
-
-
-
-
   // 2. Add a `getGuess` method to `game` that prompts the player to enter a guess with a message formatted as: *Enter a guess between [smallestNum] and [biggestNum].
 
   getguesses = this.getGuess();
@@ -48,9 +43,6 @@ this.render();
 
   }
     // }
-
-
-
     // Hint - use a template literal for the prompt message.
     // 3. Ensure that the `getGuess` method returns a value that:
     //     - Is a *number*, not a *string*.
@@ -68,9 +60,7 @@ this.render();
         )
           while {}}
     
-  
-  
-  
+   
   
     // 4. From within the `play` method, invoke the `getGuess` method from inside a loop, and add the new guess to the `prevGuesses` array.
     //     - Hint: this is an excellent use for a while loop (or even a do...while loop!)
