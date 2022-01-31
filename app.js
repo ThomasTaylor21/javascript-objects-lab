@@ -18,11 +18,20 @@ const game = {
   
   // 1. Add a `prevGuesses` property to the `game` object initialized to an empty array.
 do {
-
-  while (this.previousGuess[this.previousGuess.length = 1])) && !== this.secretNum !== null);
-
-  this.render()
+  this.previousGuesses.push(this.getGuess());
 }
+while (this.previousGuess[this.previousGuess.length - 1] !== this.secretNum)
+this.render();
+{
+  
+
+  // }
+  //     (condition) {
+  
+  // }
+
+  //   this.render()
+  // }
 
 
 
@@ -63,41 +72,42 @@ do {
 
 
 
-// }
-// do {
+  // }
+  // do {
 
   
-// //   var result = '';
-// // var i = 0;
-// // do {
-// //    i += 1;
-// //    result += i + ' ';
-// // }
-// // while (i > 0 && i < 5);
-// // Despite i == 0 this will still loop as it starts off without the test
+  // //   var result = '';
+  // // var i = 0;
+  // // do {
+  // //    i += 1;
+  // //    result += i + ' ';
+  // // }
+  // // while (i > 0 && i < 5);
+  // // Despite i == 0 this will still loop as it starts off without the test
 
-// console.log(result);
-
-
-
-//   this.prevGuesses.push(guesses);
-//   console.log(this.prevGuesses);
-//   this.render();
-//   // need to add while statement here
-//   while (x = 0; i >= {
+  // console.log(result);
 
 
-//   }
-// }
 
-//  //   console.log(prevGuesses);
-//   // const play = function () {
-//   //   if (this.biggestNum - this.smallestNum + 1)) + this.smallestNum);{
-//   //     return this.secretNum;
+  //   this.prevGuesses.push(guesses);
+  //   console.log(this.prevGuesses);
+  //   this.render();
+  //   // need to add while statement here
+  //   while (x = 0; i >= {
+
+
+  //   }
+  // }
+
+  //  //   console.log(prevGuesses);
+  //   // const play = function () {
+  //   //   if (this.biggestNum - this.smallestNum + 1)) + this.smallestNum);{
+  //   //     return this.secretNum;
   
-//   // };
-//   //   console.log("game");
+  //   // };
+  //   //   console.log("game");
   
   
 
-// // // generate each for loop }
+  // // // generate each for loop }}
+}
