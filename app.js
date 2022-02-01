@@ -1,4 +1,4 @@
-console.log("I am here now")
+console.log("I am here")
 
 const game = {
   title: 'Guess the Number!',
@@ -12,13 +12,13 @@ const game = {
 }
   
     console.log(this.secretNum)
-    do {
-      this prevGuesses.push(this.getGuess())
-      this.render()
+//     do {
+//   //     this prevGuesses.push(this.getGuess())
+//   //     this.render()
 
-    }
-    while (this.prevGuesses{
-      this.prevGuesses.length - 1] (!== this.secretNum;));
+//   //   }
+//   //   while (this.prevGuesses{
+//   //     this.prevGuesses.length - 1] (!== this.secretNum;));
       
     
-  }
+//   // 
