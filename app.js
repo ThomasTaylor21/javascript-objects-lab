@@ -10,6 +10,7 @@ const game = {
       (this.biggestNum - this.smallestNum + 1)) + this.smallestNum
   }
 }
+// need to console log all
   
     console.log(this.secretNum)
 //     do {
